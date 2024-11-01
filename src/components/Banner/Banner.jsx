@@ -5,7 +5,7 @@ const Banner = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={bookimg}
-            className="w-[90%]" />
+            className="w-[90%] lg:w-[60%]" />
           <div>
             <h1 className="text-5xl font-bold">Box Office News!</h1>
             <p className="py-6">

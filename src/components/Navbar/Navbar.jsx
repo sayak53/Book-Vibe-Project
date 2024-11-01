@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -52,8 +52,8 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end space-x-5">
-        <a className="btn">Sign In</a>
-        <a className="btn">Sign Up</a>
+        <a className="btn"><Link to={"/signin"}>Sign In</Link></a>
+        <a className="btn"><Link to={"/signup"}>Sign Up</Link></a>
       </div>
     </div>
   );
