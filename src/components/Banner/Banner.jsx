@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import bookimg from "../../assets/books.jpg";
 const Banner = () => {
   return (

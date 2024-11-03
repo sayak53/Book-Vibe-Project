@@ -7,7 +7,7 @@ const Books = () => {
         fetch('../../../public/booksData.json')
         .then(res => res.json())
         .then(data => setBooks(data))
-    },[]);
+    },[])
     return (
         <div className="mt-8 mb-8">
             <p className="text-4xl text-center font-bold">Books:{books.length}</p>
